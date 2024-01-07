@@ -5,7 +5,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 const navbar = () => {
     return (
-        <div className="navbarStyle container d-flex align-items-center justify-content-between pt-3 gap-3">
+        <div className="navbarStyle container d-flex align-items-center justify-content-between pt-3 gap-3 fixed-top">
             <h1>pti.</h1>
 
             <div className='d-flex align-items-center gap-2'>

@@ -1,0 +1,165 @@
+.footer{
+    background-color: #f99f1c;
+    padding-bottom: 4rem;
+}
+
+.subscribe-btn{
+    background-color: white;
+    padding: .5rem .5rem .5rem 2rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    max-width: 650px;
+}
+
+.subscribe-btn input{
+    border: none;
+    outline: none;
+    width: 450px;
+}
+
+.subscribe-btn button{
+    color: white;
+    background-color: #fc6011;
+    border: none;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    width: 161px;
+}
+
+.footer h3{
+    font-weight: 700;
+    text-align: start;
+    font-size: 32px;
+    margin-top: 8rem;
+}
+
+.footer span{
+    color: #fe5a3e;
+}
+
+.footer p{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.social-link{
+    background-color: #fedcb9;
+    padding: .5rem .6rem .5rem .6rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 9rem;
+}
+
+.icon-logo{
+    width: 720px;
+}
+
+.footer img{
+    width: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer img{
+        width: 300px;
+    }
+
+    .icon-logo{
+        width: 600px;
+    }
+
+    .subscribe-btn{
+        max-width: 550px;
+    }
+    
+    .subscribe-btn input{
+        width: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .footer img{
+        display: none;
+        width: 0px;
+    }
+
+    .icon-logo{
+        width: auto;
+    }
+
+    .subscribe-btn{
+        max-width: 550px;
+    }
+    
+    .subscribe-btn input{
+        width: 350px;
+    }
+
+    .footer h3{
+        margin-top: 4rem;
+    }
+
+    .footer>div{
+        flex-direction: column;
+    }
+
+    .subscribe-btn button{
+        padding: .5rem 1rem;
+    }
+
+    .social-link{
+        margin-top: 5rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .footer img{
+        display: none;
+        width: 0px;
+    }
+
+    .subscribe-btn{
+        max-width: 550px;
+        margin-top: 6rem;
+    }
+    
+    .subscribe-btn input{
+        width: 350px;
+    }
+
+    .footer h3{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .footer>div{
+        flex-direction: column;
+    }
+
+    .subscribe-btn button{
+        padding: .5rem 0;
+        color: #fc6011;
+    background-color: transparent;
+    font-weight: 700;
+    width: 190px;
+    }
+
+    .icon-logo{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .social-link{
+        margin-top: 4rem;
+    }
+
+    .social-link2{
+        order: 1;
+    }
+
+    .footer-info{
+        order: 2;
+    }
+    
+}

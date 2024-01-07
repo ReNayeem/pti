@@ -1,3 +1,9 @@
+.navbarStyle{
+    position: sticky;
+    background-color: #eeeff0e1;
+    padding-bottom: 1rem;
+}
+
 .navbarStyle h1{
     color: #000000;
     margin-top: 0;
@@ -41,7 +47,7 @@
 }
 
 .user-icon2{
-    padding: .8rem .8rem;
+    padding: .8rem .85rem;
     background-color: #fd6011;
     border-radius: 50%;
     cursor: pointer;
@@ -83,6 +89,5 @@
 @media screen and (max-width: 550px) {
     .navbarStyle{
         border-bottom: 2px solid #e3e6e8;
-        padding-bottom: 1rem;
     }
 }
