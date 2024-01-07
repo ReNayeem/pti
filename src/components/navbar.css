@@ -1,0 +1,81 @@
+.navbarStyle h1{
+    color: #000000;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.navbarStyle .nav-search{
+    background-color: #fefefe;
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+}
+
+.navbarStyle .nav-search input{
+    border: none;
+    color: #828282;
+    font-size: 16px;
+    width: 600px;
+    outline: none;
+}
+
+.down-menu{
+    padding: .7rem 1rem !important;
+    border-radius: .5rem !important;
+    background-color: #fefefe !important;
+    border-color: #fefefe !important;
+    color: #000a2d !important;
+    font-weight: 600 !important;
+}
+
+.down-menu-items{
+    border: none !important;
+}
+
+.down-menu-item{
+    font-weight: 600 !important;
+    color: #889099 !important;
+}
+
+.down-menu-item:hover{
+    color: #f87938 !important;
+    background-color: #e7e9ec !important;
+}
+
+.user-icon2{
+    padding: .7rem .8rem;
+    background-color: #fd6011;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-icon{
+    color: #eeece9;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbarStyle .nav-search input{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbarStyle .nav-search input{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbarStyle .nav-search input{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbarStyle .nav-search input{
+        width: 130px;
+    }
+
+    .user-icon2{
+        display: none;
+    }
+}
