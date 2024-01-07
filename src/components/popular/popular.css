@@ -1,0 +1,23 @@
+.popular-products{
+    overflow-x: scroll;
+}
+
+.products-arrow1{
+    color: #d4d6da;
+    margin-top: -.8rem;
+}
+
+.products-arrow2{
+    color: #556373;
+    margin-top: -.8rem;
+}
+
+.products-add-more{
+    color: #f8833a;
+}
+
+.popular-title{
+    color: #222324;
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,12 @@
+.products img{
+    max-width: 245px;
+    border-radius: 1rem;
+    height: 350px;
+    object-fit: cover;
+}
+
+.products h1{
+    font-size: 20px;
+    margin-top: .1rem;
+    color: #576574;
+}
